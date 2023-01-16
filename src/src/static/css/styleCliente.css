@@ -1,0 +1,15 @@
+.compCliente {
+    margin-top: -5%; 
+    margin-left: -35%;
+    margin-right: -35%;
+}
+
+#imgCliente {
+    margin-top: 3%; 
+    border-radius: 5%;
+}
+
+li:hover{
+    background-color: aqua;
+    border-radius: 10%;    
+}

@@ -1,0 +1,54 @@
+.compLogin {    
+    background:linear-gradient(to right, rgb(101, 172, 192), rgb(164, 50, 164));  
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#colPers {
+    background-color: rgb(137, 194, 238);    
+    padding: 1% 2% 1% 2%;    
+    border-radius: 10px; 
+    font-size: 17px;  
+}
+
+#imagenLogin {
+    height: 120px;
+    margin-bottom: 5%;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+#emailCred, #passwordCred {
+    border-radius: 5px;
+    border: 0px solid;
+    padding: 2%;
+    width: 100%;
+}
+
+#btnLogear {
+    margin-top: 2%;
+    background-color: rgb(54, 54, 221);
+    border: 0px; 
+}
+
+#passwordCred{
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width:900px) {
+    .compLogin {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .compLogin {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}

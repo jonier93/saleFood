@@ -1,0 +1,16 @@
+.compAdministrador {
+    margin-top: -5%; 
+    margin-left: -35%;
+    margin-right: -35%;
+}
+
+#imgAdministrador {
+    margin-top: 3%; 
+    border-radius: 5%;
+    width: 500px;
+}
+
+li:hover{
+    background-color: aqua;
+    border-radius: 10%;    
+}

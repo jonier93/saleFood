@@ -1,0 +1,33 @@
+.compContact{
+    background:linear-gradient(to right, rgb(101, 172, 192), rgb(164, 50, 164));  
+    padding-top: 3%;
+    padding-bottom: 3%;    
+}
+#inputEmail, #inputPhone, #inputMessage {
+    margin-bottom: 4%;
+}
+
+#imgContact {
+    height: 140px;
+    margin-bottom: 4%;
+}
+
+#formContact{
+    background-color: rgb(137, 194, 238);    
+    padding: 4% 6% 4% 6%;   
+    border-radius: 10px; 
+    font-size: 17px;  
+}
+
+#btnMessage {
+    margin-top: 2%;
+    background-color: rgb(54, 54, 221);
+    border: 0px; 
+}
+
+@media screen and (max-width:1000px) {
+    #formContact{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
