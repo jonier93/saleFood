@@ -1,5 +1,6 @@
 import React from "react";
 import "../static/css/styleRegister.css"
+import imgRegister from '../static/img/register.png'
 let url = "http://localhost:5000"
 
 export function Register(){
@@ -10,7 +11,7 @@ export function Register(){
                     <div class="col-4"></div>
                     <div class="col-4" id="colPers2">
                         <form>
-                        <img className="imagenRegister" src="https://3pkm942y6f9nttcns2xe7cg1-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/document-indexing-icon.png"></img>
+                        <img className="imagenRegister" src={imgRegister}></img>
                             <div class="form-group">
                                 <label> Identificación </label>
                                 <input type="number" class="form-control" id="id" placeholder="Ingrese su Id" />  
